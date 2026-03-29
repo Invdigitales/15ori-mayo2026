@@ -214,6 +214,7 @@ display: block;
       cursor: pointer;
       background-color: #345d7e;
       text-decoration: none;
+      border-radius: 5px;
     }
 
 
