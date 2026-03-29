@@ -33,7 +33,10 @@
 <body>
 
 
-
+  <div class="preloader">
+    <img class="amor" src="./imagenes/AZUL.gif" alt="">
+   </div>
+<div>
 
 
   <div>
@@ -167,7 +170,12 @@
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonym-ous"></script>
   <script src="./script.js"></script>
-
+  <script>
+    window.addEventListener('load', () => {
+        const body = document.querySelector('body');
+        body.classList.add('loaded');
+    });
+    </script>
 </body>
 
 </html>
