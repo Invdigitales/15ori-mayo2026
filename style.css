@@ -238,16 +238,269 @@ display: block;
   }
 
 
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #f5f5f5;
+}
+
+/* SECCIÓN */
+.galeria {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+/* TITULO */
+.titulo {
+  font-size: 40px;
+  letter-spacing: 3px;
+  color: #2c4a66;
+  margin-bottom: 10px;
+}
+
+/* TEXTO */
+.descripcion {
+  color: #6c7a86;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* ICONO */
+.icono {
+  width: 10%;
+    display: block;
+  margin: 0 auto;
+    margin-top: 5%;
+}
+
+/* CONTENEDOR DE FOTOS */
+.contenedor-fotos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 15%;
+}
+
+/* TARJETAS */
+.card {
+  background-color: #3e627d;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:nth-child(2) {
+  background-color: #dbe3ea;
+}
+
+/* IMAGEN */
+.card img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+}
+
+/* HOVER */
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* PUNTITO ABAJO */
+.punto {
+  width: 10px;
+  height: 10px;
+  background-color: #9fb3c3;
+  border-radius: 50%;
+  margin: 40px auto 0;
+}
 
 
 
+/* FONDO GENERAL */
+.dresscode-section {
+  background-color: #aebdc8;
+  display: flex;
+  justify-content: center;
+}
+
+/* CARD */
+.card-dresscode {
+  background-color: #f3f3f3;
+  width: 100%;
+  max-width: 600px;
+  padding: 60px 30px;
+  text-align: center;
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+}
+
+/* TITULO */
+.titulo {
+  font-size: 32px;
+  letter-spacing: 3px;
+  color: #2c4a66;
+  margin-bottom: 40px;
+}
+
+/* ICONO */
+.percha{
+  width: 20%;
+    display: block;
+  margin: 0 auto;
+    margin-top: 5%;
+}
+
+/* TEXTO */
+.texto {
+  font-size: 18px;
+  color: #5f6f7a;
+  margin-bottom: 40px;
+  line-height: 1.5;
+}
+
+/* BOTON */
+.btn {
+  display: inline-block;
+  background-color: #0f2f4a;
+  color: white;
+  padding: 14px 40px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #17486f;
+}
 
 
+/* SECCION GENERAL */
+.musicaa {
+  
+  text-align: center;
+  padding: 80px 20px;
+}
+
+/* TITULO */
+.titulo-musicaa {
+ 
+  font-family: "Aboreto", system-ui;
+  text-align: center;
+  font-size: 35px;
+  color: #376282;
+  margin-top: 20px;
+}
+.titulo-fiesta {
+ 
+  font-family: "Aboreto", system-ui;
+  text-align: center;
+  font-size: 35px;
+  color: #376282;
+  margin-top: 20px;
+}
+
+/* DESCRIPCION */
+.desc-musicaa {
+  font-size: 18px;
+  color: #5f6f7a;
+  margin-bottom: 50px;
+}
+
+/* CARD */
+.card-musica {
+  background-color: #f3f3f3;
+  max-width: 650px;
+  margin: auto;
+  padding: 60px 30px;
+  border-radius: 25px;
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+}
+
+/* SUBTITULO */
+.subtitulo {
+  font-size: 28px;
+  letter-spacing: 3px;
+  color: #2c4a66;
+  margin-bottom: 30px;
+}
+
+/* ICONO */
+.icono {
+  font-size: 50px;
+  color: #9fb3c3;
+  margin-bottom: 30px;
+}
+
+/* TEXTO */
+.texto {
+  font-size: 18px;
+  color: #5f6f7a;
+  margin-bottom: 40px;
+}
+
+/* BOTON */
+.btn {
+  display: inline-block;
+  background-color: #0f2f4a;
+  color: #fff;
+  padding: 14px 35px;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #17486f;
+}
 
 
+.rsvp-form {
 
+  margin: 0 auto;
+   font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #414141;
+  text-align: center;
+ 
+}
 
+.rsvp-form label {
+  display: block;
+  margin-top: -20px;
+  font-size: 13px;
+}
 
+.rsvp-form input[type="text"] {
+  width: 80%;
+  background:   rgb(229, 243, 222); 
+  border: none;
+  border-bottom: 1px solidrgb(143, 140, 140)2;
+  padding: 8px 0;
+  color: #3c3c3c;
+  margin-top: 3%;
+}
+
+.rsvp-form input::placeholder {
+  color: #4a4545;
+}
+
+.rsvp-form button {
+  margin-top: 30px;
+  padding: 12px;
+  width: 80%;
+  border: 1px solid #bab3b3;
+  background:  #667c91;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.rsvp-form button:hover {
+  background: #ffffff;
+  color: #36518a;
+}
 
 
 
@@ -339,13 +592,10 @@ display: block;
     margin-top: 20%;
   }
   .fiesta{
-    text-align: center;
-    font-size: 35px;
-    color: #b88d2c;
-    margin-top: 2%; 
-    font-weight: 550;
-    margin: 13%;
-    font-family: 'Dancing Script', cursive; 
+      font-size: 40px;
+  letter-spacing: 3px;
+  color: #2c4a66;
+  margin-bottom: 10px;
   }
   .obsequio{
     text-align: center;
