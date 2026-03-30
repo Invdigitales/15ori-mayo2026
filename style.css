@@ -379,7 +379,7 @@ body {
 
 /* SECCION GENERAL */
 .musicaa {
-  
+  margin-top: -5%;
   text-align: center;
   padding: 80px 20px;
 }
@@ -404,7 +404,7 @@ body {
 
 /* DESCRIPCION */
 .desc-musicaa {
-  font-size: 18px;
+  font-size: 20px;
   color: #5f6f7a;
   margin-bottom: 50px;
 }
