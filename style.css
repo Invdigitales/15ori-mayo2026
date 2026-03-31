@@ -503,7 +503,7 @@ body {
 }
 /* FONDO */
 .tips-section {
-  background-color: #aebdc8;
+  background-color: #edf8ff;
   padding: 60px 20px;
   display: flex;
   justify-content: center;
@@ -562,10 +562,21 @@ body {
   background-color: #17486f;
 }
 
+ .final{
+    width: 100%;
+    margin-top: -4%;
+    
+  }
 
 
+  .corazonfinal{
+width: 10%;
+display: block;
+  margin: 0 auto;
+  margin-top: -52%;
 
 
+}
 
 
 
@@ -667,12 +678,7 @@ body {
   }
   
 
-  .final{
-    width: 45%;
-    margin-left: 27%;
-    margin-top: -5%;
-    
-  }
+ 
   .regalo{
     width: 22%;
     margin-left: 38%;
@@ -789,11 +795,11 @@ margin-left:-15% ;
   font-size: 22px;
   color: #4b4b4b;
   margin-top: 12%; 
-  margin: 5%;
+  margin: 10%;
   font-family: "Arsenal SC", sans-serif;
   font-weight: 500;
-  background-image: url(./imagenes/5af1f7230024abf57e8020427471018e.gif);
   background-size:30%;
+  background-color: #e9fdfd;
 
 }
 .parrafo3{
