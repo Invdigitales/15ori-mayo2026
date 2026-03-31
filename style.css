@@ -578,6 +578,26 @@ display: block;
 
 }
 
+.box__copyright {
+  max-width: 1200px;
+  padding: 18px 7px;
+  text-align: center;
+  background-color: #ffffff;
+  font-size: 100%;
+}
+
+
+.footer{
+  margin-top: 170px;
+  color: #949494;
+  font-size: 12px;
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #b9b393;
+}
 
 
 
