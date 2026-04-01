@@ -601,8 +601,76 @@ display: block;
 
 
 
+/* Fondo general */
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-color: #f4f6f8; /* color celeste/gris */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
+/* Contenido */
+.contenido {
+  max-width: 600px;
+}
 
+.fotos {
+   font-family: "Aboreto", system-ui;
+  text-align: center;
+  font-size: 35px;
+  color: #376282;
+  margin-top: -55%;
+}
+
+/* Subtítulo */
+.subtitulo {
+  font-size: 18px;
+  color: #4a6a85;
+  margin-bottom: 40px;
+}
+
+/* Icono */
+.icono img {
+  width: 60px;
+  opacity: 0.5;
+  margin-bottom: 20px;
+}
+
+/* Hashtag */
+.hashtag {
+  font-size: 32px;
+  color: #3b5c7a;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+/* Botón */
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #0d2c4a;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #123a63;
+}
+
+ .instagram img{
+    width: 10%;
+    display: block;
+  margin: 0 auto;
+    margin-top: -3%;
+    
+  }
 
 
 
